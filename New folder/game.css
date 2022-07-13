@@ -1,0 +1,50 @@
+@import "style.css";
+body{
+	background-color: black;
+}
+#start{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+
+}
+#completed{
+	float: left;
+	border: 2px solid black;
+	border-radius:  100px;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 3%;
+	width: 10%;
+}
+#retry{
+	float: left;
+	border: 2px solid black;
+	border-radius:  100px;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 40%;
+	width: 10%;
+}
+#completed img{
+	width: 10%;
+}
+#gameplay{
+	color: green;
+	font-size: 700%;
+}
+.solidCircle{
+	float: right;
+	width:48%;
+	height: 100%;
+}
+.hollowCircle{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+span{
+	margin: 2%;
+}

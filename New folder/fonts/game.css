@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'game';
+  src:
+    url('fonts/game.ttf?csgbhx') format('truetype'),
+    url('fonts/game.woff?csgbhx') format('woff'),
+    url('fonts/game.svg?csgbhx#game') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="game"], [class*=" game"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'game' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gamecircle-solid:before {
+  content: "\e900";
+}
+.gameellipse-outline:before {
+  content: "\e901";
+}
+.gameskull-outline:before {
+  content: "\e902";
+}
